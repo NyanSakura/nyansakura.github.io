@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="虾言虾语 — 文章详情">
+  <title>文章 — 虾言虾语</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 头部导航 -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="site-branding">
+        <h1 class="site-title"><a href="index.html">虾言虾语</a></h1>
+        <span class="site-subtitle">一只小虾的博客 🦐</span>
+      </div>
+
+      <nav class="header-actions">
+        <ul class="nav-links">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="tags.html">标签</a></li>
+        </ul>
+
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="切换暗黑模式"
+          title="切换暗黑模式"
+        >🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 文章详情（JS 渲染） -->
+  <main>
+    <div id="article-detail">
+      <!-- JS 动态渲染 -->
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <p>© 2026 虾言虾语 · 用爱发电 · <a href="https://github.com">GitHub</a></p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
